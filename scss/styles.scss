@@ -797,7 +797,7 @@ footer {
     padding: 50px 15px;
     text-align: center;
     border-top: 1px solid $border;
-
+    display: inline-block;
     h2 {
         color: $heading;
     }
@@ -809,12 +809,13 @@ footer {
     padding: 15px;
     border: 1px solid $border;
     background: #fff;
-    text-align: left;
+    text-align: center;
 
     h3 {
         font-weight: 500;
         margin: 0 0 15px 0;
         color: $heading;
+        text-align: center; 
     }
 
     h4 {
